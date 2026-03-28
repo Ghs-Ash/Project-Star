@@ -6,6 +6,35 @@
 
 This project focuses on detecting the presence of exoplanets by analyzing stellar brightness data collected over time. Using time-series modeling with LSTM (Long Short-Term Memory), the system identifies patterns in light intensity that indicate the possible presence of a planet orbiting a star.
 
+exoplanet-ml-project/
+│
+├── data/
+│   ├── exoTrain.csv
+│   └── exoTest.csv
+│
+├── notebooks/
+│   └── eda.ipynb
+│
+├── src/
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── model.py
+│   ├── predict.py
+│   └── visualize.py
+│
+├── api/
+│   └── main.py
+│
+├── models/
+│   └── lstm_model.h5
+│
+├── outputs/
+│   └── heatmaps/
+│
+├── requirements.txt
+├── Dockerfile
+├── README.md
+└── .gitignore
 ---
 
 ## 🎯 Objective
